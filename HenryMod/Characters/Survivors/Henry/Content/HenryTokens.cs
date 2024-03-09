@@ -18,7 +18,7 @@ namespace HenryMod.Survivors.Henry
 
         public static void AddHenryTokens()
         {
-            string prefix = HenrySurvivor.HENRY_PREFIX;
+            string prefix = M4A1Survivor.HENRY_PREFIX;
 
             string desc = "Henry is a skilled fighter who makes use of a wide arsenal of weaponry to take down his foes.<color=#CCD3E0>" + Environment.NewLine + Environment.NewLine
              + "< ! > Sword is a good all-rounder while Boxing Gloves are better for laying a beatdown on more powerful foes." + Environment.NewLine + Environment.NewLine
@@ -66,8 +66,8 @@ namespace HenryMod.Survivors.Henry
             #endregion
 
             #region Achievements
-            Language.Add(Tokens.GetAchievementNameToken(HenryMasteryAchievement.identifier), "Henry: Mastery");
-            Language.Add(Tokens.GetAchievementDescriptionToken(HenryMasteryAchievement.identifier), "As Henry, beat the game or obliterate on Monsoon.");
+            Language.Add(Tokens.GetAchievementNameToken(M4A1MasteryAchievement.identifier), "Henry: Mastery");
+            Language.Add(Tokens.GetAchievementDescriptionToken(M4A1MasteryAchievement.identifier), "As Henry, beat the game or obliterate on Monsoon.");
             #endregion
         }
     }
